@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+// import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
 import { GithubIcon } from "@/components/Icons";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -13,6 +13,9 @@ import Project1 from "../../public/images/projects/farawayss.png";
 import Project2 from "../../public/images/projects/pizzass.png";
 import Project3 from "../../public/images/projects/splitbillss.png";
 import FeaturedProject2 from "../../public/images/projects/portfolioss.png";
+import Project4 from "../../public/images/projects/amazonss.png";
+import FeaturedProject3 from "../../public/images/projects/ytss.png";
+
 const FramerImage = motion(Image);
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
@@ -178,6 +181,35 @@ const Projects = () => {
                 type="Project"
               />
             </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Amazon Clone"
+                img={Project4}
+                link="https://varshneypiyush19.github.io/Amazon-Clone/"
+                github="https://github.com/varshneypiyush19"
+                type="Project"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Youtube Clone"
+                img={FeaturedProject3}
+                summary="A Youtube Clone website made using HTML, CSS, Javascript. 
+                           "
+                link="https://varshneypiyush19.github.io/Youtube-Clone/"
+                github="https://github.com/varshneypiyush19"
+                type="Featured Project"
+              />
+            </div>
+            {/* <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Amazon Clone"
+                img={Project5}
+                link="https://varshneypiyush19.github.io/Amazon-Clone/"
+                github="https://github.com/varshneypiyush19"
+                type="Project"
+              />
+            </div> */}
             {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Crypto Screener Application"
