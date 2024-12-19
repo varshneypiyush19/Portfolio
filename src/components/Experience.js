@@ -53,30 +53,30 @@ const Experience = () => {
           <Details
             position="Web development Intern"
             company="GAOTek"
-            time="Sep-Present"
+            time="Sep-Nov"
             address=" New York"
-            work="Working with a team responsible for developing new features to websites, including improving the accuracy and relevance of search results and Learning new tools for Developing better SEO to websites."
+            work="Enhanced website functionality by developing and integrating custom WordPress plugins. Built scalable web applications using React.js, adhering to industry standards.Collaborated with the team to troubleshoot and resolve technical issues, ensuring project timelines were met. Documented processes and best practices to streamline future development workflows."
           />
-          <Details
+          {/* <Details
             position="Frontend Intern"
             company="CollegeXConnect"
             time="Aug-Present"
             address=" Mountain View, CA"
             work="Working with a team passionate building a website for college students, making a better enivironment dfor students with solves their all problem and help in visualization of their skills in earning."
-          />
+          /> */}
           <Details
             position="SDE Intern"
             company="WIC"
-            time="6 Months "
+            time="March-Aug"
             address="Greater Noida"
-            work="Worked on a team responsible for developing new features on websites, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+            work="Designed and developed interactive web components using Bootstrap, improving user engagement. Utilized Git for version control to maintain and update the codebase efficiently. Participated in cross-functional team meetings to ensure alignment with project goals."
           />
           <Details
             position="Frontend Intern"
             company="Thought Bistro"
             time="2 Months"
             address=" Greater Kailash"
-            work="Worked with a team which is passionate to be a Founder , Learned about what business faces problem ,what are the bottleneck for a company , Developed website and learned Lead generation  ."
+            work="Collaborated with company founders and a dedicated team to enhance project outcomes using HTML/CSS and JavaScript. Identified business challenges and bottlenecks, gaining insights into company operations and problem-solving strategies. Developed a website using Bootstrap and Tailwind CSS, enhancing lead generation capabilities for the company."
           />
         </ul>
       </div>
