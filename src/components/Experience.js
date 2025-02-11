@@ -71,13 +71,13 @@ const Experience = () => {
             address="Greater Noida"
             work="Designed and developed interactive web components using Bootstrap, improving user engagement. Utilized Git for version control to maintain and update the codebase efficiently. Participated in cross-functional team meetings to ensure alignment with project goals."
           />
-          <Details
+          {/* <Details
             position="Frontend Intern"
             company="Thought Bistro"
             time="2 Months"
             address=" Greater Kailash"
             work="Collaborated with company founders and a dedicated team to enhance project outcomes using HTML/CSS and JavaScript. Identified business challenges and bottlenecks, gaining insights into company operations and problem-solving strategies. Developed a website using Bootstrap and Tailwind CSS, enhancing lead generation capabilities for the company."
-          />
+          /> */}
         </ul>
       </div>
     </div>
