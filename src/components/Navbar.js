@@ -15,6 +15,7 @@ import {
   SunIcon,
   TwitterIcon,
   Whatsapp,
+  WhatsAppIcon,
 } from "./Icons";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 const CustomLink = ({ href, title, className = "" }) => {
@@ -119,6 +120,15 @@ const Navbar = () => {
             className="w-6 mx-3"
           >
             <LinkedInIcon />
+          </motion.a>
+          <motion.a
+            href="https://wa.me/9312080589?text=Hey Piyush! , I visited your portfolio and I would like to connect with you."
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.8 }}
+            className="w-6 ml-3 sm:mx-1"
+          >
+            <WhatsAppIcon />
           </motion.a>
           {/* <motion.a
             href="https://twitter.com"
@@ -240,16 +250,16 @@ const Navbar = () => {
             >
 
               <PinterestIcon />
-            </motion.a>
+            </motion.a> */}
             <motion.a
-              href="https://twitter.com"
+              href="https://wa.me/9312080589?text=Hey Piyush! , I visited your portfolio and I would like to connect with you."
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.8 }}
               className="w-6 ml-3 sm:mx-1"
             >
-              <DribbbleIcon />
-            </motion.a> */}
+              <WhatsAppIcon />
+            </motion.a>
 
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}

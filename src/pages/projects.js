@@ -15,7 +15,7 @@ import Project3 from "../../public/images/projects/splitbillss.png";
 import FeaturedProject2 from "../../public/images/projects/portfolioss.png";
 import Project4 from "../../public/images/projects/amazonss.png";
 import FeaturedProject3 from "../../public/images/projects/ytss.png";
-
+import FeaturedProject4 from "../../public/images/projects/frienz.png";
 const FramerImage = motion(Image);
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
@@ -137,9 +137,24 @@ const Projects = () => {
               <FeaturedProject
                 title="Portfolio"
                 img={FeaturedProject2}
-                summary="Portfolio made using NextJS, Tailwind CSS, Next Router,Formspree and Framer Motion. It shows details of projects , skills , education ,resume  , socials and contact form ."
+                summary="Developed a dynamic portfolio website showcasing projects, skills, education, resume, and contact details.
+                          Designed a responsive interface with smooth animations using Framer Motion to enhance user experience.
+                          Integrated a functional contact form with Formspring for seamless user communication.
+      "
                 link="/"
                 github="https://github.com/varshneypiyush19"
+                type="Featured Project"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Frienz"
+                img={FeaturedProject4}
+                summary="Built a real-time chat app with Socket.IO for instant messaging and a responsive React front-end.
+                         Developed a scalable Node.js/Express.js back-end and integrated MongoDB for secure user data and chat storage.
+                         Deployed the front-end on Vercel and back-end on Render, ensuring optimized performance and seamless operation."
+                link="https://frienz.vercel.app"
+                github="https://github.com/varshneypiyush19/Chat-app"
                 type="Featured Project"
               />
             </div>
@@ -165,8 +180,10 @@ const Projects = () => {
               <FeaturedProject
                 title="Thought Bistro"
                 img={FeaturedProject1}
-                summary="A Podcast website made using React, CSS, Google Sheets, React Router and App-script. 
-                          It shows details of Podcast , takes the quick survey from founders or aspiring founders. "
+                summary="Built a lead generation platform with an intuitive and responsive interface to improve business outreach.
+                          Integrated Google Sheets as a backend to collect and manage user data effectively.
+                          Role: Full Stack Developer, handling both front-end and back-end implementation.
+                          "
                 link="https://thethoughtbistro-git-main-piyush-varshneys-projects.vercel.app/"
                 github="https://github.com/varshneypiyush19"
                 type="Featured Project"
